@@ -1,5 +1,8 @@
 <div align="center">
-  <h1> <Img src ="screenshot/awesomeicons_logo.png" width = 500  alt\> Awesome Icons: Free Flutter Icons – AwesomeIcons</h1>
+  <Img src ="screenshot/awesomeicons_logo.png" width = 400  alt/>
+</div>
+<div align="center">
+  <h1> Awesome Icons: Free Flutter Icons – AwesomeIcons</h1>
 </div>
 
 
