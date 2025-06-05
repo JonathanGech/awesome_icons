@@ -58,18 +58,7 @@ To use **AwesomeIcons** in your Flutter app, import the package and use the `Ico
 
 ```dart
 import 'package:awesome_icons/awesome_icons.dart';
-
-Icon(
-  AwesomeIcon.activityBold,
-  size: 30.0,
-  color: Colors.purple,
-),
-```
-
-You can also use a custom widget `AwesomeIcons`:
-
-```dart
-AwesomeIcons(
+AwesomeIconsBold(
   icon: AwesomeIcon.activityBroken,
   size: 40,
   color: Colors.green,
