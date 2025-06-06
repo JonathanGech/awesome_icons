@@ -40,10 +40,11 @@ class AwesomeIconBase extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
+    final assetP = 'packages/awesome_icons/$assetPath';
     return FutureBuilder<String>(
       future: requiresCustomSvg
           ? AwesomeHelper.loadAndCustomizeSvg(
-              assetPath: assetPath,
+              assetPath: assetP,
               fill: fill,
               strokeColor: strokeColor,
               strokeWidth: strokeWidth,
@@ -52,7 +53,7 @@ class AwesomeIconBase extends StatelessWidget {
               gradient: gradient,
               colors: colors,
             )
-          : AwesomeHelper.loadString(assetPath: assetPath),
+          : AwesomeHelper.loadString(assetPath: assetP),
       builder: (context, snapshot) {
         if (snapshot.connectionState == ConnectionState.done && snapshot.hasData) {
           if (editedSvg != null) {
@@ -61,7 +62,7 @@ class AwesomeIconBase extends StatelessWidget {
 
           return requiresCustomSvg
               ? SvgPicture.string(snapshot.data!, width: size, height: size)
-              : SvgPicture.asset(assetPath, width: size, height: size);
+              : SvgPicture.asset(assetP, width: size, height: size);
         }
 
         return SizedBox(width: size, height: size); // Placeholder or loader
