@@ -1,4 +1,4 @@
-import 'package:awesome_icon/widgets/icon_enums.dart';
+import 'package:flutter_awesome_icon/widgets/icon_enums.dart';
 import 'package:flutter/rendering.dart';
 import 'package:flutter/services.dart';
 

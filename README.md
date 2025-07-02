@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://img.shields.io/pub/v/awesome_icons.svg?label=pub.dev&color=blue" alt="Pub Version (unpublished)">
+  <img src="https://img.shields.io/pub/v/flutter_awesome_icon.svg?label=pub.dev&color=blue" alt="Pub Version (unpublished)">
   <img src="https://img.shields.io/badge/build-pending-lightgrey" alt="Build Status (placeholder)">
   <img src="https://img.shields.io/codecov/c/github/JonathanGech/awesome_icons?color=brightgreen" alt="Code Coverage (placeholder)">
   <a href="https://github.com/JonathanGech/awesome_icons/stargazers">
@@ -78,7 +78,7 @@ Add the package to your `pubspec.yaml`:
 
 ```yaml
 dependencies:
-  awesome_icons: ^0.0.1
+  flutter_awesome_icon: ^0.0.1
 ```
 
 Then run:
@@ -94,7 +94,7 @@ flutter pub get
 To use **AwesomeIcon** in your Flutter app, import the package and use the `Icon` widget:
 
 ```dart
-import 'package:awesome_icon/awesome_icons.dart';
+import 'package:flutter_awesome_icon/flutter_awesome_icons.dart';
 
 AwesomeIconsBold(
   icon: AwesomeIcon.activityBroken,
@@ -111,7 +111,7 @@ AwesomeIconsBold(
 We welcome contributions from the community to help improve **AwesomeIcon**. If you have icon suggestions, find bugs, or want to add new features, feel free to:
 
 - Submit a pull request
-- Open an issue on [GitHub](https://github.com/your-username/awesome_icons)
+- Open an issue on [GitHub](https://github.com/JonathanGech/awesome_icons)
 
 Let’s build something awesome together! 🚀
 
