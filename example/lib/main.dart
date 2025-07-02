@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:awesome_icons/awesome_icons.dart'; 
+import 'package:awesome_icon/awesome_icons.dart'; 
 
 void main() {
   runApp(const MyApp());

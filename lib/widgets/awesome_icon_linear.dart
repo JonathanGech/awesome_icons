@@ -1,5 +1,5 @@
-import 'package:awesome_icons/widgets/awesome_icon_base.dart';
-import 'package:awesome_icons/widgets/icon_enums.dart';
+import 'package:awesome_icon/widgets/awesome_icon_base.dart';
+import 'package:awesome_icon/widgets/icon_enums.dart';
 
 import 'package:flutter/material.dart';
 

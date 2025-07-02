@@ -1,4 +1,4 @@
-import 'package:awesome_icons/widgets/awesome_icon_base.dart';
+import 'package:awesome_icon/widgets/awesome_icon_base.dart';
 import 'package:flutter/material.dart';
 
 class AwesomeIconsBold extends StatelessWidget {

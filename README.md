@@ -30,7 +30,7 @@
 </a>
 </p>
 
-![AwesomeIcons Screenshot](screenshot/logo.png)
+![AwesomeIcon Screenshot](screenshot/logo.png)
 
 <p align="center">
 <a href="https://awesome-icons-flutter.vercel.app/" target="_blank">
@@ -39,17 +39,17 @@
 </p>
 
 ---
-  <h1> Awesome Icons: Free Flutter Icons – AwesomeIcons </h1>
-**AwesomeIcons** is a free, open-source Flutter icon library offering over **5,000 icons**, each available in **6 unique styles**: Bold, Bulk, Linear, Light, Broken, and TwoTone.
+  <h1> Awesome Icon flutter: Free Flutter Icons – AwesomeIcon </h1>
+**AwesomeIcon** is a free, open-source Flutter icon library offering over **5,000 icons**, each available in **6 unique styles**: Bold, Bulk, Linear, Light, Broken, and TwoTone.
 
-Designed to empower both developers and designers, AwesomeIcons provides a comprehensive icon system that’s easy to use, fully scalable, and visually consistent — perfect for building beautiful, modern Flutter apps.
+Designed to empower both developers and designers, AwesomeIcon provides a comprehensive icon system that’s easy to use, fully scalable, and visually consistent — perfect for building beautiful, modern Flutter apps.
 
-Whether you're creating a dashboard, e-commerce app, social platform, or productivity tool, AwesomeIcons gives you pixel-perfect icons that scale to any screen.
+Whether you're creating a dashboard, e-commerce app, social platform, or productivity tool, AwesomeIcon gives you pixel-perfect icons that scale to any screen.
 
 > Trusted by the Flutter community to simplify UI development and enhance design quality.
 
 ---
-![AwesomeIcons Screenshot](screenshot/awesome_icons.png)
+![AwesomeIcon Screenshot](screenshot/awesome_icons.png)
 
 ## Table of Contents
 
@@ -91,10 +91,10 @@ flutter pub get
 
 ## 🚀 Usage Examples
 
-To use **AwesomeIcons** in your Flutter app, import the package and use the `Icon` widget:
+To use **AwesomeIcon** in your Flutter app, import the package and use the `Icon` widget:
 
 ```dart
-import 'package:awesome_icons/awesome_icons.dart';
+import 'package:awesome_icon/awesome_icons.dart';
 
 AwesomeIconsBold(
   icon: AwesomeIcon.activityBroken,
@@ -108,7 +108,7 @@ AwesomeIconsBold(
 
 ## 🤝 Contributing
 
-We welcome contributions from the community to help improve **AwesomeIcons**. If you have icon suggestions, find bugs, or want to add new features, feel free to:
+We welcome contributions from the community to help improve **AwesomeIcon**. If you have icon suggestions, find bugs, or want to add new features, feel free to:
 
 - Submit a pull request
 - Open an issue on [GitHub](https://github.com/your-username/awesome_icons)
@@ -119,7 +119,7 @@ Let’s build something awesome together! 🚀
 
 ## 📝 License
 
-**AwesomeIcons** is licensed under the **MIT License**.
+**AwesomeIcon** is licensed under the **MIT License**.
 
 You are free to use, modify, and distribute this icon library in personal and commercial projects.
 

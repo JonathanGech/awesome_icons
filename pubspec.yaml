@@ -1,4 +1,4 @@
-name: awesome_icons
+name: awesome_icon
 description: "A newA Flutter icon pack with 5000+ icons, each available in 6
   beautiful styles – Bold, Bulk, Linear, Outline, Broken, and TwoTone. "
 version: 0.0.1
@@ -6,7 +6,7 @@ homepage: https://github.com/JonathanGech/awesome_icons.git
 
 environment:
   sdk: ">=3.3.2"
-  flutter: ">=1.17.0"
+  flutter: ">=3.17.0"
 
 dependencies:
   flutter:
