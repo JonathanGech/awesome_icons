@@ -5,7 +5,7 @@ version: 0.0.1
 homepage: https://github.com/JonathanGech/awesome_icons.git
 
 environment:
-  sdk: ">=3.3.2"
+  sdk: ">=3.3.2  <4.0.0"
   flutter: ">=3.17.0"
 
 dependencies:
