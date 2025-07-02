@@ -17,10 +17,10 @@ class AwesomeIconsBroken extends StatelessWidget {
     this.strokeGradient,
     this.strokeColor,
     this.strokeWidth,
-  }):assert(
-    (!(strokeGradient != null &&  strokeColor != null)),
-    'strokeGradient or stroke color must be provided, but not both. If stroke color is provided, strokeGradient must be null. $strokeGradient, $strokeColor',
-  );
+  }) : assert(
+          (!(strokeGradient != null && strokeColor != null)),
+          'strokeGradient or stroke color must be provided, but not both. If stroke color is provided, strokeGradient must be null. $strokeGradient, $strokeColor',
+        );
 
   @override
   Widget build(BuildContext context) {

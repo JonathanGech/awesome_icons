@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:awesome_icon/awesome_icons.dart'; 
+import 'package:awesome_icon/awesome_icons.dart';
 
 void main() {
   runApp(const MyApp());
@@ -34,12 +34,40 @@ class IconDemoPage extends StatelessWidget {
           crossAxisSpacing: 16,
           mainAxisSpacing: 16,
           children: [
-            AwesomeIconsBold(icon: AwesomeIcons.helpHeartAddBold, size: 15, fill: Colors.blue,),
-            AwesomeIconsBulk(icon: AwesomeIcons.helpHeartAddBulk, size: 15, colors: [Colors.blue, Colors.blue.shade100],),
-            AwesomeIconsLinear(icon: AwesomeIcons.helpHeartAddLinear, size: 15, fill: Colors.blue, strokeColor: Colors.black,),
-            AwesomeIconsOutline(icon: AwesomeIcons.helpHeartAddBold, size: 15, strokeColor: Colors.blue,),
-            AwesomeIconsBroken(icon: AwesomeIcons.helpHeartAddBold, size: 15, fill: Colors.blue, strokeColor: Colors.black, strokeWidth: .7,),
-            AwesomeIconsTwotone(icon: AwesomeIcons.helpHeartAddBold, size: 15, strokeColor: Colors.black, strokeWidth: .7,),
+            AwesomeIconsBold(
+              icon: AwesomeIcons.helpHeartAddBold,
+              size: 15,
+              fill: Colors.blue,
+            ),
+            AwesomeIconsBulk(
+              icon: AwesomeIcons.helpHeartAddBulk,
+              size: 15,
+              colors: [Colors.blue, Colors.blue.shade100],
+            ),
+            AwesomeIconsLinear(
+              icon: AwesomeIcons.helpHeartAddLinear,
+              size: 15,
+              fill: Colors.blue,
+              strokeColor: Colors.black,
+            ),
+            AwesomeIconsOutline(
+              icon: AwesomeIcons.helpHeartAddBold,
+              size: 15,
+              strokeColor: Colors.blue,
+            ),
+            AwesomeIconsBroken(
+              icon: AwesomeIcons.helpHeartAddBold,
+              size: 15,
+              fill: Colors.blue,
+              strokeColor: Colors.black,
+              strokeWidth: .7,
+            ),
+            AwesomeIconsTwotone(
+              icon: AwesomeIcons.helpHeartAddBold,
+              size: 15,
+              strokeColor: Colors.black,
+              strokeWidth: .7,
+            ),
           ],
         ),
       ),

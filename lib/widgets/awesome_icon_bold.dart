@@ -17,7 +17,6 @@ class AwesomeIconsBold extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-   
     return AwesomeIconBase(
       assetPath: icon,
       size: size,

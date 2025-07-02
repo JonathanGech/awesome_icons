@@ -55,7 +55,8 @@ class AwesomeIconBase extends StatelessWidget {
             )
           : AwesomeHelper.loadString(assetPath: assetP),
       builder: (context, snapshot) {
-        if (snapshot.connectionState == ConnectionState.done && snapshot.hasData) {
+        if (snapshot.connectionState == ConnectionState.done &&
+            snapshot.hasData) {
           if (editedSvg != null) {
             editedSvg!(snapshot.data);
           }

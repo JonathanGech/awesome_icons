@@ -10,7 +10,6 @@ class AwesomeIconsOutline extends StatelessWidget {
     super.key,
     required this.icon,
     this.size = 14,
-
     this.strokeColor,
   });
 

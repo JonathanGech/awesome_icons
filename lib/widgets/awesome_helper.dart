@@ -105,13 +105,11 @@ class AwesomeHelper {
 
   static String _buildSvgGradientDef(Gradient gradient, String id) {
     if (gradient is LinearGradient) {
-      final stops =
-          gradient.colors.asMap().entries.map((entry) {
-            final offset =
-                gradient.stops?[entry.key] ??
-                (entry.key / (gradient.colors.length - 1));
-            return '<stop offset="${(offset * 100).toStringAsFixed(0)}%" stop-color="${_colorToHex(entry.value)}" />';
-          }).join();
+      final stops = gradient.colors.asMap().entries.map((entry) {
+        final offset = gradient.stops?[entry.key] ??
+            (entry.key / (gradient.colors.length - 1));
+        return '<stop offset="${(offset * 100).toStringAsFixed(0)}%" stop-color="${_colorToHex(entry.value)}" />';
+      }).join();
 
       return '''
 <defs>
@@ -125,5 +123,6 @@ class AwesomeHelper {
     return '';
   }
 
-  static Future<String> loadString({required String assetPath}) async =>  await rootBundle.loadString(assetPath);
+  static Future<String> loadString({required String assetPath}) async =>
+      await rootBundle.loadString(assetPath);
 }

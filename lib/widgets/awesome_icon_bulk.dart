@@ -13,14 +13,14 @@ class AwesomeIconsBulk extends StatelessWidget {
     this.size = 14,
     this.fill,
     this.colors,
-  }) : assert(
-         !(fill != null && colors != null),
-         'You can only use either fill or colors, not both at the same time.',
-       ),
-       assert(
-         !(colors != null && colors.length<2),
-         'If you provide colors, it must be a non-empty list.',
-       );
+  })  : assert(
+          !(fill != null && colors != null),
+          'You can only use either fill or colors, not both at the same time.',
+        ),
+        assert(
+          !(colors != null && colors.length < 2),
+          'If you provide colors, it must be a non-empty list.',
+        );
 
   @override
   Widget build(BuildContext context) {
