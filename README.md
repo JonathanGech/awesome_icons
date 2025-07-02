@@ -1,8 +1,45 @@
-<div align="center">
-  <h1> <Img src ="screenshot/awesomeicons_logo.png" width = 500  alt\> Awesome Icons: Free Flutter Icons – AwesomeIcons</h1>
-</div>
+<p align="center">
+  <img src="https://img.shields.io/pub/v/awesome_icons.svg?label=pub.dev&color=blue" alt="Pub Version (unpublished)">
+  <img src="https://img.shields.io/badge/build-pending-lightgrey" alt="Build Status (placeholder)">
+  <img src="https://img.shields.io/codecov/c/github/JonathanGech/awesome_icons?color=brightgreen" alt="Code Coverage (placeholder)">
+  <a href="https://github.com/JonathanGech/awesome_icons/stargazers">
+    <img src="https://img.shields.io/github/stars/JonathanGech/awesome_icons?style=social" alt="GitHub Stars">
+  </a>
+  <a href="https://flutter.dev">
+    <img src="https://img.shields.io/badge/Flutter-Website-blue?logo=flutter" alt="Flutter Website">
+  </a>
+  <a href="https://github.com/Solido/awesome-flutter">
+    <img src="https://img.shields.io/badge/Awesome-Flutter-blue.svg" alt="Awesome Flutter">
+  </a>
+  <a href="https://github.com/flutter/samples">
+    <img src="https://img.shields.io/badge/Flutter-Samples-teal.svg" alt="Flutter Samples">
+  </a>
+  <a href="https://opensource.org/licenses/MIT">
+    <img src="https://img.shields.io/badge/License-MIT-yellow.svg" alt="MIT License">
+  </a>
+  <a href="https://discord.gg/bloc">
+    <img src="https://img.shields.io/discord/649173061810487326.svg?label=Discord&logo=discord&color=blue" alt="Bloc Discord">
+  </a>
+  
+</p>
 
+<br>
+<p align= "center">
+<a href="https://www.buymeacoffee.com/yonathangech" target="_blank">
+  <img src="https://img.shields.io/badge/Buy%20Me%20a%20Coffee-orange?logo=buy-me-a-coffee&style=for-the-badge" alt="Buy Me A Coffee">
+</a>
+</p>
 
+![AwesomeIcons Screenshot](screenshot/logo.png)
+
+<p align="center">
+<a href="https://awesome-icons-flutter.vercel.app/" target="_blank">
+  <img src="https://img.shields.io/badge/Visit-Website-green?style=for-the-badge&logo=vercel" alt="Visit Website">
+</a>
+</p>
+
+---
+  <h1> Awesome Icons: Free Flutter Icons – AwesomeIcons </h1>
 **AwesomeIcons** is a free, open-source Flutter icon library offering over **5,000 icons**, each available in **6 unique styles**: Bold, Bulk, Linear, Light, Broken, and TwoTone.
 
 Designed to empower both developers and designers, AwesomeIcons provides a comprehensive icon system that’s easy to use, fully scalable, and visually consistent — perfect for building beautiful, modern Flutter apps.
@@ -58,12 +95,12 @@ To use **AwesomeIcons** in your Flutter app, import the package and use the `Ico
 
 ```dart
 import 'package:awesome_icons/awesome_icons.dart';
+
 AwesomeIconsBold(
   icon: AwesomeIcon.activityBroken,
   size: 40,
   color: Colors.green,
 ),
-
 ```
 
 
@@ -89,7 +126,3 @@ You are free to use, modify, and distribute this icon library in personal and co
 For more details, see the [LICENSE](LICENSE) file in this repository.
 
 ---
-
-<div align="center">
-  <h1>Made with ❤️ for the Flutter community</h1>
-</div>
